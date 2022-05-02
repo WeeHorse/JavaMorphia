@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>java-morphia-mongodb</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>dev.morphia.morphia</groupId>
+            <artifactId>core</artifactId>
+            <version>1.5.3</version>
+        </dependency>
+    </dependencies>
+
+    <properties>
+        <exec.mainClass>application.Main</exec.mainClass>
+        <exec.args>HelloWorld</exec.args>
+        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+</project>
